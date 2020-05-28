@@ -2,14 +2,13 @@ import os
 import cv2
 from PIL import Image
 from ObjectDetector import Detector
-#from Statistics import *
 
 # frame
 currentframe = 1
 object_detector = Detector() 
 
 # Read the video from specified path
-cam = cv2.VideoCapture("C:\\Users\\User\\Desktop\\Experiment\\VIRAT.mp4")   # VIRAT
+cam = cv2.VideoCapture("VIRAT.mp4")   # VIRAT dataset
 cam.set(cv2.CAP_PROP_FPS, 30)
 fps = cam.get(cv2.CAP_PROP_FPS)
 
