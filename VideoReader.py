@@ -6,7 +6,7 @@ from ObjectDetector import Detector
 
 # frame
 currentframe = 1
-object_detector = Detector()
+object_detector = Detector() 
 
 # Read the video from specified path
 cam = cv2.VideoCapture("C:\\Users\\User\\Desktop\\Experiment\\VIRAT.mp4")   # VIRAT
