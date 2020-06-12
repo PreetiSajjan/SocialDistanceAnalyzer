@@ -5,6 +5,8 @@ The best thing we can do to be safe in current situation is by social distancing
 
 The project uses Tiny Yolo object detection model. The distance between people in the frame is calculated using Euclidean distance.
 
+Tiny YOLO model and weights can be downloaded here: https://github.com/qqwweee/keras-yolo3
+
 # Output
 [![Watch the output generated](images/model.png)](Covid19Analyser.mp4)
 
